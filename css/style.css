@@ -600,6 +600,11 @@ h6 {
     letter-spacing: 2px;
 }
 
+#story .text-right {
+    border-right: 1px solid #FF69B4;
+}
+
+
 #story a {
     display: inline-block;
     padding: 8px 30px;

@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Boda</title>
+        <title>La Boda</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="" name="keywords">
         <meta content="" name="description">
@@ -41,7 +41,6 @@
                         <ul>
                             <li class="active"><a href="index.html">Inicio</a></li>
                             <li><a href="story.html">Nuestra Historia</a></li>
-                            <li><a href="login.html">Área de Invitados</a></li>
                             <li><a href="contact.html">Contáctanos</a></li>
                         </ul>
                     </nav>
@@ -125,10 +124,22 @@
                         <div class="row">
                             <div class="col-md-12">
                                 <h4>¡Nos vamos a casar!</h4>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam interdum arcu sed ex commodo facilisis sit amet ac ante. Ut iaculis augue urna, a fringilla ipsum efficitur ornare. Duis eros tellus, sollicitudin non sodales facilisis, vehicula feugiat massa. 
-                                </p>
-                                <a href="story.html">Read More</a>
+                                <div class="row">
+                                    <div class="col-6 text-right">
+                                        
+                                        <p> "¿Creen en el destino, el momento perfecto o en alguna fuerza que entrelaza los caminos? Yo sí. "</p>
+                                        <h4 > Carla</h4>
+                                    </div>
+                                    <div class="col-6 text-left">
+                                        
+                                        <p>"El mundo conspiro para encontrarnos."" </p>
+                                        <br>
+                                        <h4>Issac</h4>
+                                    </div>
+                                </div>
+                               <br><br>
+                                
+                                <a href="story.html">Conoce Nuestra Historia</a>
                             </div>
                         </div>
                     </div>
@@ -141,7 +152,7 @@
                 <div id="gallery">
                     <div class="container">
                         <header class="section-header">
-                            <h3>Gallery</h3>
+                            <h3>Galería</h3>
                         </header>
                         <div class="row">
                             <div class="col-12">
@@ -181,16 +192,18 @@
                 <div id="party">
                     <div class="container">
                         <header class="section-header">
-                            <h3>Boda</h3>
+                            <h3>La Boda</h3>
                         </header>
                         <div class="row">
                             <div class="col-6 text-right">
                                 <h4>¿Cuándo?</h4>
                                 <p>12 de Agosto, 2023, 12:00 AM</p>
-                            </div>
-                            <div class="col-6 text-left">
                                 <h4>¿Dónde?</h4>
                                 <p>Av Bolívar S/N Vía Rayocucho, Calacalí</p>
+                            </div>
+                            <div class="col-6 text-left">
+                                <h4>Código de Vestimenta</h4>
+                                <p>Formal, Elegante</p>
                             </div>
                         </div>
                         <a href="#" data-toggle="modal" data-target="#modal-map">Ver Mapa</a>
@@ -302,32 +315,26 @@
                 <div id="rsvp">
                     <div class="container">
                         <header class="section-header">
-                            <h3>RSVP</h3>
+                            <h3>Asistencia</h3>
                         </header>
                         <div class="row">
                             <div class="col-12">
-                                <h4>Please confirm your attendance</h4>
-                                <form>
+                                <h4>Por favor confirma tu asistencia</h4>
+                                <p>Detalla los nombres completos de los asistentes, tomar en cuenta que los pases no son transferibles</p>
+                                <form onsubmit="">
                                     <div class="form-row">
                                         <div class="form-group col-md-6">
-                                            <input type="text" class="form-control" placeholder="First Name" />
+                                            <input type="text" id="Nombre" name="Nombre" class="form-control" placeholder="Nombre" />
                                         </div>
                                         <div class="form-group col-md-6">
-                                            <input type="text" class="form-control" placeholder="Last Name" />
+                                            <input type="text" id="Apellido" name="Apellido" class="form-control" placeholder="Apellido" />
                                         </div>
                                     </div>
-                                    <div class="form-row">
-                                        <div class="form-group col-md-6">
-                                            <input type="email" class="form-control" placeholder="Your Email" />
-                                        </div>
-                                        <div class="form-group col-md-6">
-                                            <input type="text" class="form-control" placeholder="Your Mobile" />
-                                        </div>
-                                    </div>
+                                   
                                     <div class="form-group">
-                                        <input type="text" class="form-control" placeholder="Special Request" />
+                                        <textarea rows="4" type="text" id="Extras" name="Extras" class="form-control" placeholder="Nombres de los Acompañantes" ></textarea>
                                     </div>
-                                    <div><button type="submit">RSVP Now</button></div>
+                                    <div><button type="submit">Enviar</button></div>
                                 </form>
                             </div>
                         </div>
