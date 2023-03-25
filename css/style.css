@@ -10,14 +10,14 @@ body {
 }
 
 a {
-    color: #FF69B4;
+    color: #8e6995;
     transition: 0.5s;
 }
 
 a:hover,
 a:active,
 a:focus {
-    color: #FF69B4;
+    color: #8e6995;
     outline: none;
     text-decoration: none;
 }
@@ -33,7 +33,7 @@ h2,
 h3 {
     font-family: 'Nunito', sans-serif;
     font-weight: 900;
-    color: #FF69B4;
+    color: #8e6995;
     margin: 0 0 20px 0;
     padding: 0;
 }
@@ -43,7 +43,7 @@ h5,
 h6 {
     font-family: 'Nunito', sans-serif;
     font-weight: 600;
-    color: #FF69B4;
+    color: #8e6995;
     margin: 0 0 10px 0;
     padding: 0;
 }
@@ -51,7 +51,7 @@ h6 {
 .back-to-top {
     position: fixed;
     display: none;
-    background: #FF69B4;
+    background: #8e6995;
     border-radius: 30px;
     color: #fff;
     width: 44px;
@@ -71,11 +71,11 @@ h6 {
 }
 
 #fp-nav ul li a span {
-    background: #FF69B4;
+    background: #8e6995;
 }
 
 #fp-nav ul li .fp-tooltip {
-    color: #FF69B4;
+    color: #8e6995;
     margin-top: 0;
     font-size: 12px;
 }
@@ -113,7 +113,7 @@ h6 {
 }
 
 .main-menu ul li a {
-    color: #FF69B4;
+    color: #8e6995;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 14px;
@@ -125,7 +125,7 @@ h6 {
     transition: color .25s ease, background-color .25s ease;
 }
 .mobile-menu-btn {
-    color: #FF69B4;
+    color: #8e6995;
     text-align: center;
     font-size: 30px;
     line-height: 57px;
@@ -354,7 +354,7 @@ h6 {
     width: 50px;
     height: 50px;
     padding: 9px;
-    background: #FF69B4;
+    background: #8e6995;
     font-size: 32px;
     line-height: 1;
     border-radius: 30px;
@@ -373,13 +373,13 @@ h6 {
     letter-spacing: 2px;
     transition: 0.5s;
     color: #ffffff;
-    background: #FF69B4;
+    background: #8e6995;
     border-radius: 30px;
 }
 
 #intro .btn-get-started:hover {
     background: #ffffff;
-    color: #FF69B4;
+    color: #8e6995;
 }
 
 /* ================================================= */
@@ -533,7 +533,7 @@ h6 {
 
 .section-header h3 {
     font-size: 60px;
-    color: #FF69B4;
+    color: #8e6995;
     text-transform: uppercase;
     text-align: center;
     letter-spacing: 10px;
@@ -547,7 +547,7 @@ h6 {
     display: block;
     width: 160px;
     height: 1px;
-    background: #FF69B4;
+    background: #8e6995;
     bottom: 1px;
     left: calc(50% - 80px);
 }
@@ -558,8 +558,8 @@ h6 {
     display: block;
     width: 50px;
     height: 5px;
-    border-top: 1px solid #FF69B4;
-    border-bottom: 1px solid #FF69B4;
+    border-top: 1px solid #8e6995;
+    border-bottom: 1px solid #8e6995;
     border-left: transparent;
     bottom: -1px;
     left: calc(50% - 25px);
@@ -601,7 +601,7 @@ h6 {
 }
 
 #story .text-right {
-    border-right: 1px solid #FF69B4;
+    border-right: 1px solid #8e6995;
 }
 
 
@@ -613,11 +613,11 @@ h6 {
     font-size: 16px;
     font-weight: 400;
     letter-spacing: 2px;
-    background: #FF69B4;
+    background: #8e6995;
 }
 
 #story a:hover {
-    color: #FF69B4;
+    color: #8e6995;
     background: #222222;
 }
 
@@ -633,7 +633,18 @@ h6 {
 
 #story-page .story-col:nth-child(odd) {
     text-align: right;
-    border-right: 1px solid #FF69B4;
+   
+}
+
+#story-page .izquierda p {
+    border-right: 1px solid #8e6995;
+    padding: 0 45px;
+    margin-bottom: 60px;
+}
+
+#story-page .right-border  {
+    border-right: 1px solid #8e6995;
+    padding: 0 45px;
 }
 
 @media (max-width: 767.98px) {
@@ -646,6 +657,12 @@ h6 {
 @media (max-width: 575.98px) {
     #story-page .story-col,
     #story-page .story-col:nth-child(odd) {
+        text-align: center;
+        border-right: none
+    }
+    #story-page .izquierda p, 
+    #story-page .right-border
+     {
         text-align: center;
         border-right: none
     }
@@ -751,7 +768,7 @@ h6 {
 }
 
 #party .text-right {
-    border-right: 1px solid #FF69B4;
+    border-right: 1px solid #8e6995;
 }
 
 #party h4 {
@@ -770,12 +787,12 @@ h6 {
     font-size: 16px;
     font-weight: 400;
     letter-spacing: 2px;
-    background: #FF69B4;
+    background: #8e6995;
     margin-top: 45px;
 }
 
 #party a:hover {
-    color: #FF69B4;
+    color: #8e6995;
     background: #222222;
 }
 
@@ -810,7 +827,7 @@ h6 {
 }
 
 #place .text-right {
-    border-right: 1px solid #FF69B4;
+    border-right: 1px solid #8e6995;
 }
 
 #place h4 {
@@ -829,12 +846,12 @@ h6 {
     font-size: 16px;
     font-weight: 400;
     letter-spacing: 2px;
-    background: #FF69B4;
+    background: #8e6995;
     margin-top: 45px;
 }
 
 #place a:hover {
-    color: #FF69B4;
+    color: #8e6995;
     background: #222222;
 }
 
@@ -859,7 +876,7 @@ h6 {
 
 #registry .form-control {
     border-radius: 30px;
-    border-color: #FF69B4;
+    border-color: #8e6995;
     box-shadow: none;
 }
 
@@ -875,13 +892,13 @@ h6 {
     font-size: 16px;
     font-weight: 400;
     letter-spacing: 2px;
-    background: #FF69B4;
+    background: #8e6995;
     border: none;
     cursor: pointer;
 }
 
 #registry button:hover {
-    color: #FF69B4;
+    color: #8e6995;
     background: #222222;
 }
 
@@ -906,7 +923,7 @@ h6 {
 
 #rsvp .form-control {
     border-radius: 30px;
-    border-color: #FF69B4;
+    border-color: #8e6995;
     box-shadow: none;
 }
 
@@ -922,13 +939,13 @@ h6 {
     font-size: 16px;
     font-weight: 400;
     letter-spacing: 2px;
-    background: #FF69B4;
+    background: #8e6995;
     border: none;
     cursor: pointer;
 }
 
 #rsvp button:hover {
-    color: #FF69B4;
+    color: #8e6995;
     background: #222222;
 }
 
@@ -978,7 +995,7 @@ h6 {
 
 #clock .flip-clock-label {
     top: -35px;
-    color: #FF69B4;
+    color: #8e6995;
     font-size: 25px;
 }
 
@@ -999,12 +1016,12 @@ h6 {
 }
 
 #clock .flip-clock-dot {
-    background: #FF69B4;
+    background: #8e6995;
 }
 
 .flip-clock-wrapper ul li a div div.inn {
     color: #ffffff;
-    background: #FF69B4;
+    background: #8e6995;
 }
 
 /* ================================================= */
@@ -1032,7 +1049,7 @@ h6 {
 #login .form input {
     padding: 10px 14px;
     border-radius: 30px;
-    border-color: #FF69B4;
+    border-color: #8e6995;
     box-shadow: none;
     font-size: 16px;
 }
@@ -1045,7 +1062,7 @@ h6 {
     display: inline-block;
     border: none;
     border-radius: 30px;
-    background: #FF69B4;
+    background: #8e6995;
     padding: 9px 30px;
     color: #ffffff;
     letter-spacing: 2px;
@@ -1055,12 +1072,12 @@ h6 {
 
 #login .form button[type="submit"]:hover {
     background: #222222;
-    color: #FF69B4;
+    color: #8e6995;
 }
 
 .custom-control-label:before{
     background: #ffffff;
-    border: 1px solid #FF69B4;
+    border: 1px solid #8e6995;
 }
 
 .custom-radio .custom-control-input:checked~.custom-control-label::before,
@@ -1095,7 +1112,7 @@ h6 {
 
 #contact .contact-info i {
     font-size: 35px;
-    color: #FF69B4;
+    color: #8e6995;
     margin-bottom: 20px;
 }
 
@@ -1116,7 +1133,7 @@ h6 {
 #contact .form textarea {
     padding: 10px 14px;
     border-radius: 30px;
-    border-color: #FF69B4;
+    border-color: #8e6995;
     box-shadow: none;
     font-size: 16px;
 }
@@ -1130,7 +1147,7 @@ h6 {
     display: inline-block;
     border: none;
     border-radius: 30px;
-    background: #FF69B4;
+    background: #8e6995;
     padding: 9px 30px;
     color: #ffffff;
     letter-spacing: 2px;
@@ -1140,7 +1157,7 @@ h6 {
 
 #contact .form button[type="submit"]:hover {
     background: #222222;
-    color: #FF69B4;
+    color: #8e6995;
 }
 
 @media (max-width: 575.98px) {
