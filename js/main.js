@@ -12,7 +12,7 @@
     
     // Full page
     var myFullpage = new fullpage('#full-page', {
-        scrollBar: true,
+        //scrollBar: true,
         scrollingSpeed: 500,
         autoScrolling: true,
         fitToSection: true,
@@ -22,7 +22,7 @@
         paddingBottom: '0',
         verticalCentered: true,
         showActiveTooltip: true,
-        navigationTooltips: ['INICIO', 'NUESTRA HISTORIA', 'GALERÍA', 'LA BODA', 'REGALOS', 'RECOMENDACIONES', 'ASISTENCIA', 'DÍAS RESTANTES'],
+      //  navigationTooltips: ['INICIO', 'NUESTRA HISTORIA', 'GALERÍA', 'LA BODA', 'REGALOS', 'RECOMENDACIONES', 'ASISTENCIA', 'DÍAS RESTANTES'],
         sectionsColor: ['#ffffff']
     });
 
