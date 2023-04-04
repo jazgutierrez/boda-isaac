@@ -12,11 +12,11 @@
     
     // Full page
     var myFullpage = new fullpage('#full-page', {
-        scrollBar: true,
-        scrollingSpeed: 500,
+        scrollBar: false,
+        scrollingSpeed: 600,
         autoScrolling: true,
         fitToSection: true,
-        navigation: true,
+        navigation: false,
         navigationPosition: 'left',
         paddingTop: '0',
         paddingBottom: '0',
