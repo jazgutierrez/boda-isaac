@@ -1,284 +1,366 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>La Boda</title>
-        <meta content="width=device-width, initial-scale=1.0" name="viewport">
-        <meta content="" name="keywords">
-        <meta content="" name="description">
 
-        <!-- Favicons -->
-        <link href="img/favicon.ico" rel="icon">
-        <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+<head>
+    <meta charset="utf-8">
+    <title>La Boda</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
 
-        <!-- Google Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Playfair+Display:500i,700i,900i|Nunito:700,900|Raleway:300,400,500" rel="stylesheet"> 
+    <!-- Favicons -->
+    <link href="img/favicon.ico" rel="icon">
+    <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
 
-        <!-- Bootstrap CSS File -->
-        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Playfair+Display:500i,700i,900i|Nunito:700,900|Raleway:300,400,500"
+        rel="stylesheet">
 
-        <!-- Libraries CSS Files -->
-        <link href="vendor/fullpage/fullpage.min.css" rel="stylesheet">
-        <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-        <link href="vendor/animate/animate.min.css" rel="stylesheet">
-        <link href="vendor/ionicons/css/ionicons.min.css" rel="stylesheet">
-        <link href="vendor/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-        <link href="vendor/slick/slick.css" rel="stylesheet">
-        <link href="vendor/slick/slick-theme.css" rel="stylesheet">
-        <link href="vendor/flipclock/flipclock.css" rel="stylesheet">
+    <!-- Bootstrap CSS File -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-        <!-- Main Stylesheet File -->
-        <link href="css/style.css" rel="stylesheet">
-    </head>
+    <!-- Libraries CSS Files -->
+    <link href="vendor/fullpage/fullpage.min.css" rel="stylesheet">
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="vendor/animate/animate.min.css" rel="stylesheet">
+    <link href="vendor/ionicons/css/ionicons.min.css" rel="stylesheet">
+    <link href="vendor/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="vendor/slick/slick.css" rel="stylesheet">
+    <link href="vendor/slick/slick-theme.css" rel="stylesheet">
+    <link href="vendor/flipclock/flipclock.css" rel="stylesheet">
 
-    <body>
-        <div id="full-page">
-            <!-- Header Section Start -->
-            <section class="section section-1">
-                <header id="header">
-                    <div class="mobile-menu-btn"><i class="fa fa-bars"></i></div>
-                    <nav class="main-menu top-menu">
-                        <ul>
-                            <li class="active"><a href="index.html">Inicio</a></li>
-                            <li><a href="story.html">Nuestra Historia</a></li>
-                            <li><a href="contact.html">Contáctanos</a></li>
-                        </ul>
-                    </nav>
-                </header>
+    <!-- Main Stylesheet File -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
 
-                <div id="intro">
-                    <div class="intro-container">
-                        <div id="introCarousel" class="carousel  slide carousel-fade" data-ride="carousel">
+<body>
+    <div id="full-page">
+        <!-- Header Section Start -->
+        <section class="section section-1">
+            <header id="header">
+                <div class="mobile-menu-btn"><i class="fa fa-bars"></i></div>
+                <nav class="main-menu top-menu">
+                    <ul>
+                        <li class="active"><a href="index.html">Inicio</a></li>
+                        <li><a href="story.html">Nuestra Historia</a></li>
+                        <li><a href="contact.html">Contáctanos</a></li>
+                    </ul>
+                </nav>
+            </header>
 
-                            <ol class="carousel-indicators"></ol>
+            <div id="intro">
+                <div class="intro-container">
+                    <div id="introCarousel" class="carousel  slide carousel-fade" data-ride="carousel">
 
-                            <div class="carousel-inner" role="listbox">
+                        <ol class="carousel-indicators"></ol>
 
-                                <div class="carousel-item active">
-                                    <div class="carousel-background"><img src="img/slider-1.jpg" alt=""></div>
-                                    <div class="carousel-container">
-                                        <div class="carousel-content">
-                                            <h1>Carla</h1>
-                                            <h2>&</h2>
-                                            <h1>Isaac</h1>
-                                            <p>¡Nos vamos a casar!</p>
-                                            <h4>12 de Agosto, 2023</h4>
-                                            <!--<a href="#rsvp" class="btn-get-started">Confirma tu Asistencia</a>-->
+                        <div class="carousel-inner" role="listbox">
 
+
+                            <div class="carousel-item active">
+                                <div class="carousel-background"><img src="img/slider-1.jpg" alt=""></div>
+                                <div class="carousel-container">
+                                    <div class="carousel-content">
+                                        <h1>Carla & Isaac</h1>
+                                        <p>¡Nos vamos a casar!</p>
+                                        <h4>12 de Agosto, 2023</h4>
+                                        <div class="countdown-countdown">
+                                            <input class="knob days" data-label="Días" data-width="80" data-height="80"
+                                                data-min="0" data-max="365" data-displayPrevious=true
+                                                data-fgColor="#FFFFFF" data-bgColor="rgba(255,255,255, 0.5)"
+                                                data-inputColor="#FFFFFF" data-readOnly="true" data-skin="standard"
+                                                data-thickness="0.04" value="1" data-angleOffset=0 data-angleArc=0>
+
+                                            <input class="knob hour" data-label="Hrs" data-width="80" data-height="80"
+                                                data-min="0" data-max="24" data-displayPrevious=true
+                                                data-fgColor="#000000" data-bgColor="rgba(255,255,255, 0.5)"
+                                                data-inputColor="#FFFFFF" data-readOnly="true" data-skin="standard"
+                                                data-thickness="0.04" value="1" data-angleOffset=0 data-angleArc=0>
+
+                                            <input class="knob minute" data-label="Min" data-width="80" data-height="80"
+                                                data-min="0" data-max="60" data-displayPrevious=true
+                                                data-fgColor="#000000" data-bgColor="rgba(255,255,255, 0.5)"
+                                                data-inputColor="#FFFFFF" data-readOnly="true" data-skin="standard"
+                                                data-thickness="0.04" value="1" data-angleOffset=0 data-angleArc=0>
+
+                                            <input class="knob second" data-label="Seg" data-width="80" data-height="80"
+                                                data-min="0" data-max="60" data-displayPrevious=true
+                                                data-fgColor="#000000" data-bgColor="rgba(255,255,255, 0.5)"
+                                                data-inputColor="#FFFFFF" data-readOnly="true" data-skin="standard"
+                                                data-thickness="0.04" value="0" data-angleOffset=0 data-angleArc=0>
                                         </div>
-                                    </div>
-                                </div>
 
-                                <div class="carousel-item">
-                                    <div class="carousel-background"><img src="img/slider-2.jpg" alt=""></div>
-                                    <div class="carousel-container">
-                                        <div class="carousel-content">
-                                         <h1>Carla</h1>
-                                            <h2>&</h2>
-                                            <h1>Isaac</h1>
-                                            <p>¡Nos vamos a casar!</p>
-                                            <h4>12 de Agosto, 2023</h4>
-                                                                                       <!--<a href="#rsvp" class="btn-get-started">Confirma tu Asistencia</a>-->
-
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="carousel-item">
-                                    <div class="carousel-background"><img src="img/slider-3.jpg" alt=""></div>
-                                    <div class="carousel-container">
-                                        <div class="carousel-content">
-                                            <h1>Carla</h1>
-                                            <h2>&</h2>
-                                            <h1>Isaac</h1>
-                                            <p>¡Nos vamos a casar!</p>
-                                            <h4>12 de Agosto, 2023</h4>
-                                            <!--<a href="#rsvp" class="btn-get-started">Confirma tu Asistencia</a>-->
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-
-                            <a class="carousel-control-prev" href="#introCarousel" role="button" data-slide="prev">
-                                <span class="carousel-control-prev-icon ion-chevron-left" aria-hidden="true"></span>
-                                <span class="sr-only">Atrás</span>
-                            </a>
-
-                            <a class="carousel-control-next" href="#introCarousel" role="button" data-slide="next">
-                                <span class="carousel-control-next-icon ion-chevron-right" aria-hidden="true"></span>
-                                <span class="sr-only">Siguiente</span>
-                            </a>
-
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- Header Section End -->
-
-            <!-- Story Section Start-->
-            <section class="section section-2">
-                <div id="story">
-                    <div class="container">
-                        <header class="section-header">
-                            <h3>Nuestra Historia</h3>
-                        </header>
-                        <div class="row">
-                            <div class="col-md-12">
-                                <h4>¡Nos vamos a casar!</h4>
-                                <div class="row">
-                                    <div class="col-6 text-right">
+                                       
                                         
-                                        <p> "¿Creen en el destino, el momento perfecto o en alguna fuerza que entrelaza los caminos? Yo sí. "</p>
-                                        <h4 > Carla</h4>
-                                    </div>
-                                    <div class="col-6 text-left">
-                                        
-                                        <p>"El mundo conspiro para encontrarnos."" </p>
-                                        <br>
-                                        <h4>Isaac</h4>
                                     </div>
                                 </div>
-                               <br><br>
-                                
-                                <a href="story.html">Conoce Nuestra Historia</a>
                             </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- Story Section end -->
 
-            <!-- Gallery Section Start-->
-            <section class="section section-3">
-                <div id="gallery">
-                    <div class="container">
-                        <header class="section-header">
-                            <h3>Galería</h3>
-                        </header>
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="gallery">
-                                    <div><img src="img/gallery/gallery-1.jpeg"></div>
-                                    <div><img src="img/gallery/gallery-2.jpeg"></div>
-                                    <div><img src="img/gallery/gallery-3.jpeg"></div>
-                                    <div><img src="img/gallery/gallery-4.jpeg"></div>
-                                    <div><img src="img/gallery/gallery-5.jpeg"></div>
-                                    <div><img src="img/gallery/gallery-6.jpeg"></div>
-                                    <div><img src="img/gallery/gallery-7.jpeg"></div>
-                                    
-                                </div>
-                                <div class="gallery-nav">
-                                    <div><img src="img/gallery/gallery-1.jpeg"></div>
-                                    <div><img src="img/gallery/gallery-2.jpeg"></div>
-                                    <div><img src="img/gallery/gallery-3.jpeg"></div>
-                                    <div><img src="img/gallery/gallery-4.jpeg"></div>
-                                    <div><img src="img/gallery/gallery-5.jpeg"></div>
-                                    <div><img src="img/gallery/gallery-6.jpeg"></div>
-                                    <div><img src="img/gallery/gallery-7.jpeg"></div>
-                                   
+                            <div class="carousel-item">
+                                <div class="carousel-background"><img src="img/slider-2.jpg" alt=""></div>
+                                <div class="carousel-container">
+                                    <div class="carousel-content">
+                                        <h1>Carla & Isaac</h1>
+                                        <p>¡Nos vamos a casar!</p>
+                                        <h4>12 de Agosto, 2023</h4>
+                                        <div class="countdown-countdown">
+                                            <input class="knob days" data-label="Días" data-width="80" data-height="80"
+                                                data-min="0" data-max="365" data-displayPrevious=true
+                                                data-fgColor="#FFFFFF" data-bgColor="rgba(255,255,255, 0.5)"
+                                                data-inputColor="#FFFFFF" data-readOnly="true" data-skin="standard"
+                                                data-thickness="0.04" value="1" data-angleOffset=0 data-angleArc=0>
+
+                                            <input class="knob hour" data-label="Hrs" data-width="80" data-height="80"
+                                                data-min="0" data-max="24" data-displayPrevious=true
+                                                data-fgColor="#000000" data-bgColor="rgba(255,255,255, 0.5)"
+                                                data-inputColor="#FFFFFF" data-readOnly="true" data-skin="standard"
+                                                data-thickness="0.04" value="1" data-angleOffset=0 data-angleArc=0>
+
+                                            <input class="knob minute" data-label="Min" data-width="80" data-height="80"
+                                                data-min="0" data-max="60" data-displayPrevious=true
+                                                data-fgColor="#000000" data-bgColor="rgba(255,255,255, 0.5)"
+                                                data-inputColor="#FFFFFF" data-readOnly="true" data-skin="standard"
+                                                data-thickness="0.04" value="1" data-angleOffset=0 data-angleArc=0>
+
+                                            <input class="knob second" data-label="Seg" data-width="80" data-height="80"
+                                                data-min="0" data-max="60" data-displayPrevious=true
+                                                data-fgColor="#000000" data-bgColor="rgba(255,255,255, 0.5)"
+                                                data-inputColor="#FFFFFF" data-readOnly="true" data-skin="standard"
+                                                data-thickness="0.04" value="0" data-angleOffset=0 data-angleArc=0>
+                                        </div>
+
+                                    </div>
                                 </div>
                             </div>
+
+                            <div class="carousel-item">
+                                <div class="carousel-background"><img src="img/slider-3.jpg" alt=""></div>
+                                <div class="carousel-container">
+                                    <div class="carousel-content">
+                                        <h1>Carla & Isaac</h1>
+                                        <p>¡Nos vamos a casar!</p>
+                                        <h4>12 de Agosto, 2023</h4>
+                                        <div class="countdown-countdown">
+                                            <input class="knob days" data-label="Días" data-width="80" data-height="80"
+                                                data-min="0" data-max="365" data-displayPrevious=true
+                                                data-fgColor="#FFFFFF" data-bgColor="rgba(255,255,255, 0.5)"
+                                                data-inputColor="#FFFFFF" data-readOnly="true" data-skin="standard"
+                                                data-thickness="0.04" value="1" data-angleOffset=0 data-angleArc=0>
+
+                                            <input class="knob hour" data-label="Hrs" data-width="80" data-height="80"
+                                                data-min="0" data-max="24" data-displayPrevious=true
+                                                data-fgColor="#000000" data-bgColor="rgba(255,255,255, 0.5)"
+                                                data-inputColor="#FFFFFF" data-readOnly="true" data-skin="standard"
+                                                data-thickness="0.04" value="1" data-angleOffset=0 data-angleArc=0>
+
+                                            <input class="knob minute" data-label="Min" data-width="80" data-height="80"
+                                                data-min="0" data-max="60" data-displayPrevious=true
+                                                data-fgColor="#000000" data-bgColor="rgba(255,255,255, 0.5)"
+                                                data-inputColor="#FFFFFF" data-readOnly="true" data-skin="standard"
+                                                data-thickness="0.04" value="1" data-angleOffset=0 data-angleArc=0>
+
+                                            <input class="knob second" data-label="Seg" data-width="80" data-height="80"
+                                                data-min="0" data-max="60" data-displayPrevious=true
+                                                data-fgColor="#000000" data-bgColor="rgba(255,255,255, 0.5)"
+                                                data-inputColor="#FFFFFF" data-readOnly="true" data-skin="standard"
+                                                data-thickness="0.04" value="0" data-angleOffset=0 data-angleArc=0>
+                                        </div>
+
+                                        <!--<a href="#rsvp" class="btn-get-started">Confirma tu Asistencia</a>-->
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
+
+
+                        <a class="carousel-control-prev" href="#introCarousel" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon ion-chevron-left" aria-hidden="true"></span>
+                            <span class="sr-only">Atrás</span>
+                        </a>
+
+                        <a class="carousel-control-next" href="#introCarousel" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon ion-chevron-right" aria-hidden="true"></span>
+                            <span class="sr-only">Siguiente</span>
+                        </a>
+
                     </div>
                 </div>
-            </section>
-            <!-- Gallery Section end -->
+            </div>
+        </section>
+        <!-- Header Section End -->
 
-            <!-- Party Section Start-->
-            <section class="section section-4">
-                <div id="party">
-                    <div class="container">
-                        <header class="section-header">
-                            <h3>La Boda</h3>
-                        </header>
-                        <div class="row">
-                            <div class="col-6 text-right">
-                                <h4>¿Cuándo?</h4>
-                                <p>12 de Agosto, 2023, 10:00 AM</p>
-                                <br>
-                                <h4>¿Dónde?</h4>
-                                <p>Av Bolívar S/N Vía Rayocucho, Calacalí</p>
-                            </div>
-                            <div class="col-6 text-left">
-                                <br>
-                                <h4>Código de Vestimenta</h4>
-                                <p>Formal, Elegante</p>
-                            </div>
-                        </div>
-                        <a href="#" data-toggle="modal" data-target="#modal-map">Ver Mapa</a>
-                    </div>
-                </div>
-            </section>
-            <!-- Party Section end -->
+        <!-- Story Section Start-->
+        <section class="section section-2">
+            <div id="story">
+                <div class="container">
+                    <header class="section-header">
+                        <h3>Nuestra Historia</h3>
+                    </header>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h4>¡Nos vamos a casar!</h4>
+                            <div class="row">
+                                <div class="col-6 text-right">
 
-            <!-- Place Section Start-->
-            <section class="section section-5">
-                <div id="place">
-                    <div class="container">
-                        <header class="section-header">
-                            <h3>Regalos</h3>
-                        </header>
-                        <p style="color: gray;"><strong>
-                            Su presencia y buenos deseos son suficientes para nosotros en la boda, y en caso de que deseen hacernos un obsequio, puede ser en forma de transferencia bancaria o efectivo.</strong></p>
-                            <br>
-                        <div class="row">
+                                    <p> "¿Creen en el destino, el momento perfecto o en alguna fuerza que entrelaza los
+                                        caminos? Yo sí. "</p>
+                                    <h4> Carla</h4>
+                                </div>
+                                <div class="col-6 text-left">
 
-                            <div class="col-6 text-right">
-                               
-                               
-                                    <h4>Efectivo</h4>
-                                    <p>Si deseas en efectivo en la entrada encontrarás sobres vacíos y un lugar donde colocarlos</p>
-                            </div>
-                            <div class="col-6 text-left">
-                                
-                                <h4>Transferencia</h4>
-                                <p>
-                                    Si deseas en forma de transferencia los datos de la cuenta bancaria son:
-                                </p>
-                                <p>
+                                    <p>"El mundo conspiro para encontrarnos."" </p>
                                     <br>
-                                <h5>Banco Pichincha</h5></p>
-                                <ul>
-                                        <li>Cuenta de Ahorros</li>
-                                        <li> N°: 2208938553</li>
-                                        <li> Nombre: Isaac Gutiérrez </li>
-                                        <li>CI : 1722306394</li>
-                                </ul>
+                                    <h4>Isaac</h4>
+                                </div>
                             </div>
-                        </div>
-                       
-                    </div>
-                </div>
-            </section>
-            <!-- Place Section end -->
+                            <br><br>
 
-            <!-- Modal For Map Start -->
-            <div id="modal-map" class="modal fade" tabindex="-1" role="dialog">
-                <div class="modal-dialog modal-lg">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        </div>
-                        <div class="modal-body">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3989.8182629537537!2d-78.514731!3d-0.009718!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMMKwMDAnMzUuMCJTIDc4wrAzMCc1My4wIlc!5e0!3m2!1ses-419!2sec!4v1679761758439!5m2!1ses-419!2sec" width="100%" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+                            <a href="story.html">Conoce Nuestra Historia</a>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- Modal For Map End -->
+        </section>
+        <!-- Story Section end -->
 
-            <!-- Registry Section Start-->
-            <section class="section section-6">
-                <div id="registry">
-                    <div class="container">
-                        <header class="section-header">
-                            <h3>Recomendaciones</h3>
-                        </header>
-                        <div class="row">
-                            <div class="col-12">
-                                <h4>¡Estamos tan emocionados de celebrar contigo!</h4>
-                                <p>video</p>
+        <!-- Gallery Section Start-->
+        <section class="section section-3">
+            <div id="gallery">
+                <div class="container">
+                    <header class="section-header">
+                        <h3>Galería</h3>
+                    </header>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="gallery">
+                                <div><img src="img/gallery/gallery-1.jpeg"></div>
+                                <div><img src="img/gallery/gallery-2.jpeg"></div>
+                                <div><img src="img/gallery/gallery-3.jpeg"></div>
+                                <div><img src="img/gallery/gallery-4.jpeg"></div>
+                                <div><img src="img/gallery/gallery-5.jpeg"></div>
+                                <div><img src="img/gallery/gallery-6.jpeg"></div>
+                                <div><img src="img/gallery/gallery-7.jpeg"></div>
+
+                            </div>
+                            <div class="gallery-nav">
+                                <div><img src="img/gallery/gallery-1.jpeg"></div>
+                                <div><img src="img/gallery/gallery-2.jpeg"></div>
+                                <div><img src="img/gallery/gallery-3.jpeg"></div>
+                                <div><img src="img/gallery/gallery-4.jpeg"></div>
+                                <div><img src="img/gallery/gallery-5.jpeg"></div>
+                                <div><img src="img/gallery/gallery-6.jpeg"></div>
+                                <div><img src="img/gallery/gallery-7.jpeg"></div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Gallery Section end -->
+
+        <!-- Party Section Start-->
+        <section class="section section-4">
+            <div id="party">
+                <div class="container">
+                    <header class="section-header">
+                        <h3>La Boda</h3>
+                    </header>
+                    <div class="row">
+                        <div class="col-6 text-right">
+                            <h4>¿Cuándo?</h4>
+                            <p>12 de Agosto, 2023, 10:00 AM</p>
+                            <br>
+                            <h4>¿Dónde?</h4>
+                            <p>Av Bolívar S/N Vía Rayocucho, Calacalí</p>
+                        </div>
+                        <div class="col-6 text-left">
+                            <br>
+                            <h4>Código de Vestimenta</h4>
+                            <p>Formal, Elegante</p>
+                        </div>
+                    </div>
+                    <a href="#" data-toggle="modal" data-target="#modal-map">Ver Mapa</a>
+                </div>
+            </div>
+        </section>
+        <!-- Party Section end -->
+
+        <!-- Place Section Start-->
+        <section class="section section-5">
+            <div id="place">
+                <div class="container">
+                    <header class="section-header">
+                        <h3>Regalos</h3>
+                    </header>
+                    <p style="color: gray;"><strong>
+                            Su presencia y buenos deseos son suficientes para nosotros en la boda, y en caso de que
+                            deseen hacernos un obsequio, puede ser en forma de transferencia bancaria o
+                            efectivo.</strong></p>
+                    <br>
+                    <div class="row">
+
+                        <div class="col-6 text-right">
+
+
+                            <h4>Efectivo</h4>
+                            <p>Si deseas en efectivo en la entrada encontrarás sobres vacíos y un lugar donde colocarlos
+                            </p>
+                        </div>
+                        <div class="col-6 text-left">
+
+                            <h4>Transferencia</h4>
+                            <p>
+                                Si deseas en forma de transferencia los datos de la cuenta bancaria son:
+                            </p>
+                            <p>
+                                <br>
+                            <h5>Banco Pichincha</h5>
+                            </p>
+                            <ul>
+                                <li>Cuenta de Ahorros</li>
+                                <li> N°: 2208938553</li>
+                                <li> Nombre: Isaac Gutiérrez </li>
+                                <li>CI : 1722306394</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- Place Section end -->
+
+        <!-- Modal For Map Start -->
+        <div id="modal-map" class="modal fade" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3989.8182629537537!2d-78.514731!3d-0.009718!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMMKwMDAnMzUuMCJTIDc4wrAzMCc1My4wIlc!5e0!3m2!1ses-419!2sec!4v1679761758439!5m2!1ses-419!2sec"
+                            width="100%" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal For Map End -->
+
+        <!-- Registry Section Start-->
+        <section class="section section-6">
+            <div id="registry">
+                <div class="container">
+                    <header class="section-header">
+                        <h3>Recomendaciones</h3>
+                    </header>
+                    <div class="row">
+                        <div class="col-12">
+                            <h4>¡Estamos tan emocionados de celebrar contigo!</h4>
+                            <p>video</p>
                             <!--    <form>
                                     <div class="form-row">
                                         <div class="form-group col-md-6">
@@ -306,47 +388,71 @@
                                     </div>
                                     <div><button type="submit">Submit</button></div>
                                 </form>-->
-                            </div>
                         </div>
                     </div>
                 </div>
-            </section>
-           <!-- Registry Section end -->
+            </div>
+        </section>
+        <!-- Registry Section end -->
 
-            <!-- RSVP Section Start-->
-            <section class="section section-7">
-                <div id="rsvp">
-                    <div class="container">
-                        <header class="section-header">
-                            <h3>Asistencia</h3>
-                        </header>
-                        <div class="row">
-                            <div class="col-12">
-                                <h4>Por favor confirma tu asistencia</h4>
-                                <p>Detalla los nombres completos de los asistentes, tomar en cuenta que los pases no son transferibles</p>
-                                <form onsubmit="">
-                                    <div class="form-row">
-                                        <div class="form-group col-md-6">
-                                            <input type="text" id="Nombre" name="Nombre" class="form-control" placeholder="Nombre" />
-                                        </div>
-                                        <div class="form-group col-md-6">
-                                            <input type="text" id="Apellido" name="Apellido" class="form-control" placeholder="Apellido" />
-                                        </div>
+        <!-- RSVP Section Start-->
+        <section class="section section-7">
+            <div id="rsvp">
+                <div class="container">
+                    <header class="section-header">
+                        <h3>Asistencia</h3>
+                    </header>
+
+                    <div class="row">
+                        <div class="col-12">
+                            <h4>Por favor confirma tu asistencia hasta el 15 de Julio, 2023</h4>
+                            <p>Por favor evitar realizar doble confirmación, en tal caso se tomará en cuenta la primera.
+                                Los pases no son transferibles.</p>
+
+                            <button>Familia</button>
+                            <button>Individuo</button>
+
+                            <form onsubmit="">
+                                <div class="form-row">
+                                    <div class="form-group col-md-6">
+                                        <input type="text" id="Nombre" name="Nombre" class="form-control"
+                                            placeholder="Nombre de la Familia" />
                                     </div>
-                                   
-                                    <div class="form-group">
-                                        <textarea rows="4" type="text" id="Extras" name="Extras" class="form-control" placeholder="Nombres de los Acompañantes" ></textarea>
+
+                                    <div class="form-group col-md-6">
+                                        <input type="text" id="Apellido" name="Apellido" class="form-control"
+                                            placeholder="Número de pases" />
                                     </div>
-                                    <div><button type="submit">Enviar</button></div>
-                                </form>
-                            </div>
+
+
+                                </div>
+                                <p>Detalla los nombres completos de los asistentes</p>
+                                <div class="form-group">
+                                    <textarea rows="4" type="text" id="Extras" name="Extras" class="form-control"
+                                        placeholder="Nombres de los Acompañantes"></textarea>
+                                </div>
+                                <div><button type="submit">Enviar</button></div>
+                            </form>
+
+
+                            <form onsubmit="">
+                                <div class="form-row">
+                                    <div class="form-group col-md-6">
+                                        <input type="text" id="NombreCompleto" name="Nombre" class="form-control"
+                                            placeholder="Nombre Completo" />
+                                    </div>
+                                </div>
+
+                                <div><button type="submit">Enviar</button></div>
+                            </form>
                         </div>
                     </div>
                 </div>
-            </section>
-            <!-- RSVP Section end -->
+            </div>
+        </section>
+        <!-- RSVP Section end -->
 
-            <!-- CountDown Section Start
+        <!-- CountDown Section Start
             <section class="section section-8">
                 <div id="clock">
                     <div class="container">
@@ -361,30 +467,31 @@
                     </div>
                 </div>
             </section>-->
-            <!-- CountDown Section end -->
+        <!-- CountDown Section end -->
 
-            <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
-            <!-- Uncomment below i you want to use a preloader -->
-            <!-- <div id="preloader"></div> -->
+        <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+        <!-- Uncomment below i you want to use a preloader -->
+        <!-- <div id="preloader"></div> -->
 
-        </div>
+    </div>
 
-        <!-- JavaScript Libraries -->
-        <script src="vendor/jquery/jquery.min.js"></script>
-        <script src="vendor/jquery/jquery-migrate.min.js"></script>
-        <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-        <script src="vendor/fullpage/fullpage.min.js"></script>
-        <script src="vendor/easing/easing.min.js"></script>
-        <script src="vendor/superfish/hoverIntent.js"></script>
-        <script src="vendor/superfish/superfish.min.js"></script>
-        <script src="vendor/waypoints/waypoints.min.js"></script>
-        <script src="vendor/owlcarousel/owl.carousel.min.js"></script>
-        <script src="vendor/touchSwipe/jquery.touchSwipe.min.js"></script>
-        <script src="vendor/slick/slick.min.js"></script>
-        <script src="vendor/flipclock/flipclock.min.js"></script>
+    <!-- JavaScript Libraries -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/jquery/jquery-migrate.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/fullpage/fullpage.min.js"></script>
+    <script src="vendor/easing/easing.min.js"></script>
+    <script src="vendor/superfish/hoverIntent.js"></script>
+    <script src="vendor/superfish/superfish.min.js"></script>
+    <script src="vendor/waypoints/waypoints.min.js"></script>
+    <script src="vendor/owlcarousel/owl.carousel.min.js"></script>
+    <script src="vendor/touchSwipe/jquery.touchSwipe.min.js"></script>
+    <script src="vendor/slick/slick.min.js"></script>
+    <script src="vendor/flipclock/flipclock.min.js"></script>
 
-        <!-- Main Javascript File -->
-        <script src="js/main.js"></script>
+    <!-- Main Javascript File -->
+    <script src="js/main.js"></script>
 
-    </body>
+</body>
+
 </html>
