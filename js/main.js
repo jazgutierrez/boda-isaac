@@ -12,7 +12,7 @@
     
     // Full page
     var myFullpage = new fullpage('#full-page', {
-        scrollBar: false,
+        scrollBar: true,
         scrollingSpeed: 600,
         autoScrolling: true,
         fitToSection: true,
@@ -77,8 +77,7 @@
         fade: true,
         asNavFor: '.gallery-nav',
         adaptiveHeight: true,
-        mobileFirst: true,
-        respondTo: 'min'
+        mobileFirst: true
     });
     $('.gallery-nav').slick({
         autoplay: true,
@@ -101,6 +100,10 @@
         clockFace: 'DailyCounter',
         countdown: true
     }); 
+
+    //map
+   
+
 
 })(jQuery);
 
