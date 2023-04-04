@@ -1229,3 +1229,19 @@ h6 {
 .countdown-countdown .count-item:nth-of-type(3) {}
 
 .countdown-countdown .count-item:nth-of-type(4) {}
+
+
+/* ================================================= */
+/* ---------------- Video ------------------ */
+/* ================================================= */
+
+#video {
+    width: 60%;
+}
+
+@media screen and (max-width=500px){
+    #video {
+        width: 100%;
+    }
+    
+}
