@@ -946,7 +946,7 @@ h6 {
 
 #rsvp button:hover {
     color: #8e6995;
-    background: #222222;
+    background: #c9b7cd;
 }
 
 /* ================================================= */
@@ -1071,7 +1071,7 @@ h6 {
 }
 
 #login .form button[type="submit"]:hover {
-    background: #222222;
+    background: #c9b7cd;
     color: #8e6995;
 }
 
@@ -1156,7 +1156,7 @@ h6 {
 }
 
 #contact .form button[type="submit"]:hover {
-    background: #222222;
+    background: #c9b7cd;
     color: #8e6995;
 }
 
@@ -1245,3 +1245,44 @@ h6 {
     }
     
 }
+
+#botones button{
+    width: 150px;
+}
+
+#botones button.activo{
+    background: #c9b7cd;
+    color: #8e6995;
+}
+
+
+/* ================================================= */
+/* ---------------- Toast ------------------ */
+/* ================================================= */
+
+  /* Estilo para el toast */
+  .toast {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background-color: #f8f9fa;
+    color: #212529;
+    border-color: #f8f9fa;
+    border-radius: .25rem;
+    z-index: 1;
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .1);
+  }
+
+  /* Estilo para el botón de cierre del toast */
+  .close-toast {
+    outline: none;
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+  }
+
+  /* Estilo para ocultar el toast por defecto */
+  .hide {
+    display: none;
+  }
