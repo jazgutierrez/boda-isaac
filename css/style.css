@@ -616,9 +616,22 @@ h6 {
     background: #8e6995;
 }
 
-#story a:hover {
+#story-page a {
+    display: inline-block;
+    padding: 8px 30px;
+    border-radius: 30px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    background: #8e6995;
+    text-align: center;
+    
+}
+
+#story a:hover #story-page a:hover {
     color: #8e6995;
-    background: #222222;
+    background: #c9b7cd;
 }
 
 #story-page {
@@ -793,7 +806,7 @@ h6 {
 
 #party a:hover {
     color: #8e6995;
-    background: #222222;
+    background: #c9b7cd;
 }
 
 /* ================================================= */
@@ -852,7 +865,7 @@ h6 {
 
 #place a:hover {
     color: #8e6995;
-    background: #222222;
+    background: #c9b7cd;
 }
 
 /* ================================================= */
@@ -899,7 +912,7 @@ h6 {
 
 #registry button:hover {
     color: #8e6995;
-    background: #222222;
+    background: #c9b7cd;
 }
 
 /* ================================================= */
