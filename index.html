@@ -84,11 +84,7 @@
                                                 data-inputColor="#FFFFFF" data-readOnly="true" data-skin="standard"
                                                 data-thickness="0.04" value="1" data-angleOffset=0 data-angleArc=0>
 
-                                            <input class="knob second" data-label="Seg" data-width="80" data-height="80"
-                                                data-min="0" data-max="60" data-displayPrevious=true
-                                                data-fgColor="#000000" data-bgColor="rgba(255,255,255, 0.5)"
-                                                data-inputColor="#FFFFFF" data-readOnly="true" data-skin="standard"
-                                                data-thickness="0.04" value="0" data-angleOffset=0 data-angleArc=0>
+
                                         </div>
 
 
@@ -123,11 +119,7 @@
                                                 data-inputColor="#FFFFFF" data-readOnly="true" data-skin="standard"
                                                 data-thickness="0.04" value="1" data-angleOffset=0 data-angleArc=0>
 
-                                            <input class="knob second" data-label="Seg" data-width="80" data-height="80"
-                                                data-min="0" data-max="60" data-displayPrevious=true
-                                                data-fgColor="#000000" data-bgColor="rgba(255,255,255, 0.5)"
-                                                data-inputColor="#FFFFFF" data-readOnly="true" data-skin="standard"
-                                                data-thickness="0.04" value="0" data-angleOffset=0 data-angleArc=0>
+
                                         </div>
 
                                     </div>
@@ -160,11 +152,7 @@
                                                 data-inputColor="#FFFFFF" data-readOnly="true" data-skin="standard"
                                                 data-thickness="0.04" value="1" data-angleOffset=0 data-angleArc=0>
 
-                                            <input class="knob second" data-label="Seg" data-width="80" data-height="80"
-                                                data-min="0" data-max="60" data-displayPrevious=true
-                                                data-fgColor="#000000" data-bgColor="rgba(255,255,255, 0.5)"
-                                                data-inputColor="#FFFFFF" data-readOnly="true" data-skin="standard"
-                                                data-thickness="0.04" value="0" data-angleOffset=0 data-angleArc=0>
+
                                         </div>
 
                                         <!--<a href="#rsvp" class="btn-get-started">Confirma tu Asistencia</a>-->
@@ -360,7 +348,7 @@
                     <div class="row">
                         <div class="col-12">
                             <video id="video" src="./img/recomendaciones.mp4" autoplay="true" muted="true"
-                                loop="true"></video>
+                                controls="true" loop="true"></video>
                             <!--    <form>
                                     <div class="form-row">
                                         <div class="form-group col-md-6">
@@ -407,14 +395,15 @@
 
                         <div class="col-12">
                             <h4>Por favor confirma tu asistencia hasta el 15 de Julio, 2023</h4>
-                            <p>Evira realizar doble confirmación, en tal caso se tomará en cuenta la primera.
+                            <p>Evita realizar doble confirmación, en tal caso se tomará en cuenta la primera.
                                 Los pases no son transferibles.</p>
-                           <div id="botones">
-                                <button id="botonFamilia" class="activo" onclick="mostrarFamilia(this)">Familia</button>
+                            <div id="botones">
+                                <button id="botonFamilia" onclick="mostrarFamilia(this)">Familia</button>
                                 <button id="botonIndividual" onclick="mostrarIndividual(this)">Individual</button>
                             </div>
                             <br>
-                            <form id="Familia" action="https://formspree.io/f/xqkodnlz" method="post">
+                            <form id="Familia" action="https://formspree.io/f/xqkodnlz" method="post"
+                                style="display: none;">
                                 <div class="form-row">
                                     <div class="form-group col-md-6">
                                         <input type="text" id="Nombre" name="Nombre" class="form-control"
@@ -422,43 +411,52 @@
                                     </div>
 
                                     <div class="form-group col-md-6">
-                                        <input type="text" id="Apellido" name="Apellido" class="form-control"
+                                        <input type="number" id="Pases" name="#Pases" class="form-control"
                                             placeholder="Número de pases" />
                                     </div>
 
 
                                 </div>
+                                <div class="form-group">
+                                    <input rows="4" type="text" id="Alergias" name="Alergias"
+                                        class="form-control" placeholder="Alergias"></input>
+                                </div>
+
                                 <p>Detalla los nombres completos de los asistentes</p>
                                 <div class="form-group">
-                                    <textarea rows="4" type="text" id="Acompañantes" name="Acompañantes" class="form-control"
-                                        placeholder="Nombres de los Acompañantes"></textarea>
+                                    <textarea rows="4" type="text" id="Acompañantes" name="Acompañantes"
+                                        class="form-control" placeholder="Nombres de los Acompañantes"></textarea>
                                 </div>
                                 <div><button type="submit">Enviar</button></div>
                             </form>
 
 
-                            <form id="Individual" style="display: none;" action="https://formspree.io/f/xqkodnlz" method="post">
+                            <form id="Individual" style="display: none;" action="https://formspree.io/f/xqkodnlz"
+                                method="post">
                                 <div class="form-row">
                                     <div class="form-group col-md-12">
                                         <input type="text" id="NombreCompleto" name="Nombre" class="form-control"
                                             placeholder="Nombre Completo" />
                                     </div>
                                 </div>
-
+                                <div class="form-group">
+                                    <input rows="4" type="text" id="Alergias" name="Alergias"
+                                        class="form-control" placeholder="Alergias"></input>
+                                </div>
                                 <div><button type="submit">Enviar</button></div>
                             </form>
 
-<div id="my-form-status">
-    <div id="toast" class="toast">
-        <div class="toast-header">
-          Título del toast
-          <button type="button" class="ml-auto mb-1 close-toast">&times;</button>
-        </div>
-        <div class="toast-body">
-          Contenido del toast
-        </div>
-      </div>   
-</div>
+                            <div id="my-form-status" class="hide">
+                                <div class="notification success">
+                                    <span>¡Gracias por confirmar!</span>
+                                </div>
+                            </div>
+
+                            <div id="error-form" class="hide">
+                                <div class="notification error">
+                                    <span>¡Error, vuelve intentarlo!</span>
+                                </div>
+                            </div>
 
                         </div>
                     </div>
@@ -505,23 +503,21 @@
     <script src="vendor/flipclock/flipclock.min.js"></script>
 
 
-    
+
     <!-- Main Javascript File -->
     <script src="js/main.js"></script>
 
     <script src="js/form.js"></script>
 
     <!-- Form submit -->
+  
     <script>
-        if($("#botonFamilia").hasClass("activo")){
         var form = document.getElementById("Familia");
-        }else{
-            var form = document.getElementById("Individual");
-        }
-        
+        var form2 = document.getElementById("Individual");
+
         async function handleSubmit(event) {
           event.preventDefault();
-          var status = document.getElementById("my-form-status");
+
           var data = new FormData(event.target);
           fetch(event.target.action, {
             method: form.method,
@@ -531,23 +527,26 @@
             }
           }).then(response => {
             if (response.ok) {
-              status.innerHTML = "Thanks for your submission!";
-              
-              form.reset()
+                $("#my-form-status").show();
+                form.reset();
+                form2.reset();
+                $("#Familia").hide();
+                $("#Individual").hide();
+                $("#botonFamilia").hide();
+                $("#botonIndividual").hide();
             } else {
               response.json().then(data => {
-                if (Object.hasOwn(data, 'errors')) {
-                  status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
-                } else {
-                  status.innerHTML = "Hubo un poblema al "
-                }
+                $("#error-form").show();
+                console.log(data);
               })
             }
           }).catch(error => {
-            status.innerHTML = "Oops! There was a problem submitting your form"
+            $("#error-form").show();
+            console.log(error);
           });
         }
         form.addEventListener("submit", handleSubmit)
+        form2.addEventListener("submit", handleSubmit)
     </script>
 
 </body>

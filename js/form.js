@@ -1,11 +1,4 @@
-
-
 function mostrarFamilia(){
-    let toast = $("#my-form-status");
-    toast.show();
-    setTimeout(function(){
-        toast.hide();
-      }, 5000);
 
     $("#Familia").show();
     $("#Individual").hide();

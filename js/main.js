@@ -93,8 +93,9 @@
     });
     
     // CountDown
-    var date = new Date(2023, 8, 12);
+    var date = new Date(2023, 7, 12);
     var now = new Date();
+    console.log(now, date)
     var diff = (date.getTime()/1000) - (now.getTime()/1000);
     $('.clock').FlipClock(diff,{
         clockFace: 'DailyCounter',

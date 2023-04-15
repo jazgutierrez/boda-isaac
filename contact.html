@@ -98,7 +98,7 @@
                     
                     <div class="col-md-12">
                         <div class="form">
-                            <form>
+                            <form method="post" action="https://formspree.io/f/mvonvngq" id="my-form">
                                 <div class="form-row">
                                     <div class="form-group col-md-6">
                                         <input type="text" id="Nombres" name="Nombres" class="form-control" placeholder="Nombre" />
@@ -121,12 +121,23 @@
             </div>
         </section>
         <!-- Contact Section end -->
+        <div id="my-form-status" class="hide">
+            <div class="notification success">
+                <span>¡Gracias por escribirnos!</span>
+            </div>
+        </div>
+
+        <div id="error-form" class="hide">
+            <div class="notification error">
+                <span>¡Error, vuelve intentarlo!</span>
+            </div>
+        </div>
 
         <!-- CountDown Section Start-->
         <div id="clock" style="padding-bottom: 80px;">
             <div class="container">
                 <header class="section-header">
-                    <h3>Days Left</h3>
+                    <h3>Días Restantes</h3>
                 </header>
                 <div class="row">
                     <div class="col-12">
@@ -157,6 +168,37 @@
 
         <!-- Main Javascript File -->
         <script src="js/main.js"></script>
+
+        <script>
+            var form = document.getElementById("my-form");
+            
+            async function handleSubmit(event) {
+              event.preventDefault();
+              
+              var data = new FormData(event.target);
+              fetch(event.target.action, {
+                method: form.method,
+                body: data,
+                headers: {
+                    'Accept': 'application/json'
+                }
+              }).then(response => {
+                if (response.ok) {
+                    $("#my-form-status").show();
+                  form.reset()
+                } else {
+                  response.json().then(data => {
+                    $("#error-form").show();
+                    console.log(data);
+                  })
+                }
+              }).catch(error => {
+                $("#error-form").show();
+                console.log(error);
+              });
+            }
+            form.addEventListener("submit", handleSubmit)
+        </script>
 
     </body>
 </html>
